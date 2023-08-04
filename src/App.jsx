@@ -1,6 +1,7 @@
 import './App.css';
 import { FaTwitterSquare, FaLinkedin, FaReact } from 'react-icons/fa';
 import { HiEnvelope } from "react-icons/hi2";
+import fotoport from './assets/fotoport.png'
 
 function App() {
  
@@ -18,7 +19,7 @@ function App() {
       
         <div className="flex items-center w-500  p-10">
           <img
-            src="src/assets/fotoport.png"
+            src={fotoport}
             alt="Image"
             width="30%"
             className="w-100 h-100 object-cover rounded-full mr-10"
