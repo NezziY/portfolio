@@ -94,7 +94,7 @@ function App() {
             </div>
 
             <div className="bg-stone-800 border border-stone-600 rounded p-4">
-              <h3 className="text-lg font-bold mb-2">Project 3</h3>
+              <h3 className="text-lg font-bold mb-2">Project 4</h3>
               <p className="mb-2">Animación simple con CSS.</p>
               <div>
                 <a href="https://roaring-dango-723e2e.netlify.app/" target="_blank" rel="noopener noreferrer">
