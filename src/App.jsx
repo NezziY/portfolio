@@ -37,7 +37,6 @@ function App() {
               <img src="src/assets/icons8-logo-de-mysql.svg" className="w-12 h-12" />
               <img src="src/assets/icons8-logotipo-de-primavera.svg" className="w-12 h-12" />
             </div>
-            <p className="text-sm my-4 text-stone-500">- Nunca es tarde -</p>
           </div>
         </div>
 
