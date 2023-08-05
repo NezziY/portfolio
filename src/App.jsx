@@ -1,7 +1,7 @@
 import './App.css';
 import { FaTwitterSquare, FaLinkedin, FaReact } from 'react-icons/fa';
 import { HiEnvelope } from "react-icons/hi2";
-import fotoport from './assets/fotoport.png'
+import fotoport from '../public/images/fotoport.png';
 
 function App() {
  
@@ -30,13 +30,13 @@ function App() {
             
             <p className="my-4 font-bold">Mi stack:</p>
             <div className="flex justify-center items-center">
-              <img src="src/assets/icons8-html.svg" className="w-12 h-12" />
-              <img src="src/assets/icons8-css3.svg" className="w-12 h-12" />
-              <img src="src/assets/icons8-javascript.svg" className="w-12 h-12" />
-              <img src="src/assets/icons8-logotipo-de-java-coffee-cup.svg" className="w-12 h-12" />
-              <img src="src/assets/icons8-firebase.svg" className="w-12 h-12" />
-              <img src="src/assets/icons8-logo-de-mysql.svg" className="w-12 h-12" />
-              <img src="src/assets/icons8-logotipo-de-primavera.svg" className="w-12 h-12" />
+              <img src="./images/icons8-html.svg" className="w-12 h-12" />
+              <img src="./images/icons8-css3.svg" className="w-12 h-12" />
+              <img src="./images/icons8-javascript.svg" className="w-12 h-12" />
+              <img src="./images/icons8-logotipo-de-java-coffee-cup.svg" className="w-12 h-12" />
+              <img src="./images/icons8-firebase.svg" className="w-12 h-12" />
+              <img src="./images/icons8-logo-de-mysql.svg" className="w-12 h-12" />
+              <img src="./images/icons8-logotipo-de-primavera.svg" className="w-12 h-12" />
             </div>
           </div>
         </div>
@@ -57,7 +57,7 @@ function App() {
               <div>
                 <a href="https://neon-lolly-da9b27.netlify.app/" target="_blank" rel="noopener noreferrer">
                   <img
-                    src="src/assets/proyect1.png"
+                    src="./images/proyect1.png"
                     alt="Vista previa de ejemplo"
                     className="link-image"
                   />
@@ -71,7 +71,7 @@ function App() {
               <div>
                 <a href="https://peppy-croissant-5e5c96.netlify.app/" target="_blank" rel="noopener noreferrer">
                     <img
-                    src="src/assets/proyect2.png"
+                    src="./images/proyect2.png"
                     alt="Vista previa de ejemplo"
                     className="link-image"
                     />
@@ -85,7 +85,7 @@ function App() {
               <div>
                 <a href="https://relaxed-meringue-4f67b8.netlify.app/" target="_blank" rel="noopener noreferrer">
                     <img
-                    src="src/assets/proyect3.png"
+                    src="./images/proyect3.png"
                     alt="Vista previa de ejemplo"
                     className="link-image"
                     />
@@ -99,7 +99,7 @@ function App() {
               <div>
                 <a href="https://roaring-dango-723e2e.netlify.app/" target="_blank" rel="noopener noreferrer">
                     <img
-                    src="src/assets/proyect4.png"
+                    src="./images/proyect4.png"
                     alt="Vista previa de ejemplo"
                     className="link-image"
                     />
