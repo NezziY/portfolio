@@ -34,9 +34,13 @@ function App() {
               <img src="./images/icons8-css3.svg" className="w-12 h-12" />
               <img src="./images/icons8-javascript.svg" className="w-12 h-12" />
               <img src="./images/icons8-logotipo-de-java-coffee-cup.svg" className="w-12 h-12" />
+            </div>  
+            <div className="flex justify-center items-center">
+              <img src="./images/icons8-reaccionar.svg" className="w-12 h-12" />
               <img src="./images/icons8-firebase.svg" className="w-12 h-12" />
               <img src="./images/icons8-logo-de-mysql.svg" className="w-12 h-12" />
               <img src="./images/icons8-logotipo-de-primavera.svg" className="w-12 h-12" />
+            
             </div>
           </div>
         </div>
