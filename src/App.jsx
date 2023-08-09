@@ -13,15 +13,18 @@ function App() {
   return (
     <div className="font-sans bg-stone-900 text-white">
 
-      
-
       <header className="bg-stone-800 text-cyan-600 py-4 px-6 flex justify-between items-center">
+        
         <h1 className="text-2xl font-bold">Bienvenidos!</h1>
         <button onClick={descargarCv} className="bg-violet-700 hover:bg-violet-800 text-white py-2 px-4 rounded-full inline-flex items-center">
           <svg className="fill-current w-4 h-4 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z"/></svg>
           <span>Download CV</span>
         </button>
       </header>
+
+      <div id="stars"></div>
+      <div id="stars2"></div>
+      <div id="stars3"></div>
 
 {/* ------------------PRESENTACION---------------------- */}
 
@@ -69,6 +72,12 @@ function App() {
               <h3 className="text-lg font-bold mb-2">To do List</h3>
               <p className="mb-2">Lista de Tareas simple con CRUD  y login.</p>
 
+              <div className="space-x-2 mb-4">
+                <button className="bg-cyan-400 text-black px-2 py-1 rounded-full text-xs">React</button>
+                <button className="bg-amber-600 text-black px-2 py-1 rounded-full text-xs">Firebase</button>
+                <button className="bg-yellow-400 text-black px-2 py-1 rounded-full text-xs">JavaScript</button>
+              </div>
+
               <div>
                 <a href="https://neon-lolly-da9b27.netlify.app/" target="_blank" rel="noopener noreferrer">
                   <img
@@ -83,6 +92,12 @@ function App() {
             <div className="bg-stone-800 border border-stone-600 rounded p-4">
               <h3 className="text-lg font-bold mb-2">Humaya</h3>
               <p className="mb-2">Landing Page de Ventas</p>
+
+              <div className="space-x-2 mb-4">
+                <button className="bg-cyan-400 text-black px-2 py-1 rounded-full text-xs"> React</button>
+                <button className="bg-yellow-400 text-black px-2 py-1 rounded-full text-xs">JavaScript</button>
+              </div>
+
               <div>
                 <a href="https://peppy-croissant-5e5c96.netlify.app/" target="_blank" rel="noopener noreferrer">
                     <img
@@ -97,6 +112,12 @@ function App() {
             <div className="bg-stone-800 border border-stone-600 rounded p-4">
               <h3 className="text-xl font-bold mb-2">Buscador</h3>
               <p className="mb-2">Buscador de películas con API.</p>
+
+              <div className="space-x-2 mb-4">
+                <button className="bg-cyan-400 text-black px-2 py-1 rounded-full text-xs"> React</button>
+                <button className="bg-yellow-400 text-black px-2 py-1 rounded-full text-xs">JavaScript</button>
+              </div>
+
               <div>
                 <a href="https://relaxed-meringue-4f67b8.netlify.app/" target="_blank" rel="noopener noreferrer">
                     <img
@@ -111,6 +132,12 @@ function App() {
             <div className="bg-stone-800 border border-stone-600 rounded p-4">
               <h3 className="text-lg font-bold mb-2">Llama No Drama</h3>
               <p className="mb-2">Animación simple con CSS.</p>
+
+              <div className="space-x-2 mb-4">
+                <button className="bg-cyan-600 text-white px-2 py-1 rounded-full text-xs">CSS</button>
+                <button className="bg-yellow-400 text-black px-2 py-1 rounded-full text-xs">JavaScript</button>
+              </div>
+
               <div>
                 <a href="https://roaring-dango-723e2e.netlify.app/" target="_blank" rel="noopener noreferrer">
                     <img
@@ -136,6 +163,12 @@ function App() {
               <h3 className="text-lg font-bold mb-2">TecnoTienda</h3>
               <p className="mb-2">Tienda en Línea.</p>
 
+              <div className="space-x-2 mb-4">
+                <button className="bg-cyan-400 text-black px-2 py-1 rounded-full text-xs">React</button>
+                <button className="bg-amber-600 text-black px-2 py-1 rounded-full text-xs">Firebase</button>
+                <button className="bg-yellow-400 text-black px-2 py-1 rounded-full text-xs">JavaScript</button>
+              </div>
+
               <div>
                 <a href="https://tecnocompu-23302.web.app/" target="_blank" rel="noopener noreferrer">
                   <img
@@ -150,6 +183,12 @@ function App() {
             <div className="bg-stone-800 border border-stone-600 rounded p-4">
               <h3 className="text-lg font-bold mb-2">PokeAPI</h3>
               <p className="mb-2">Listado de pokemones.</p>
+
+              <div className="space-x-2 mb-4">
+                <button className="bg-cyan-400 text-black px-2 py-1 rounded-full text-xs"> React</button>
+                <button className="bg-yellow-400 text-black px-2 py-1 rounded-full text-xs">JavaScript</button>
+              </div>
+
               <div>
                 <a href="https://dancing-bubblegum-82c624.netlify.app/" target="_blank" rel="noopener noreferrer">
                     <img
@@ -165,6 +204,8 @@ function App() {
 
         </div>
       </main>
+
+      
 
 
 {/* ------------------CONTACTO---------------------- */}
