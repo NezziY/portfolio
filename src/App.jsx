@@ -13,7 +13,7 @@ function App() {
   return (
     <div className="font-sans bg-stone-900 text-white">
 
-      <header className="bg-stone-800 text-cyan-600 py-4 px-6 flex justify-between items-center">
+      <header className="bg-stone-800 text-cyan-500 py-4 px-6 flex justify-between items-center">
         
         <h1 className="text-2xl font-bold">Bienvenidos!</h1>
         <button onClick={descargarCv} className="bg-violet-700 hover:bg-violet-800 text-white py-2 px-4 rounded-full inline-flex items-center">
@@ -35,7 +35,7 @@ function App() {
             className="w-100 h-100 object-cover rounded-full mr-10"
           />
           <div className="flex-1">
-            <h3 className="text-2xl text-amber-400 font-medium mb-5">Vanesa Sánchez</h3>
+            <h2 className="text-3xl text-orange-400 font-medium mb-5">Vanesa Sánchez</h2>
             <p className="text-sm mb-4 text-stone-50">Programadora con gusto por el Front.<br />Egresada de CaC en Full Stack Java, React y Spring.</p> 
             
             <p className="my-4 font-bold">Mi stack:</p>
@@ -70,8 +70,8 @@ function App() {
 
               <div className="space-x-2 mb-4">
                 <button className="bg-cyan-400 text-black px-2 py-1 rounded-full text-xs">React</button>
-                <button className="bg-amber-600 text-black px-2 py-1 rounded-full text-xs">Firebase</button>
-                <button className="bg-yellow-400 text-black px-2 py-1 rounded-full text-xs">JavaScript</button>
+                <button className="bg-orange-400 text-black px-2 py-1 rounded-full text-xs">Firebase</button>
+                <button className="bg-yellow-300 text-black px-2 py-1 rounded-full text-xs">JavaScript</button>
               </div>
 
               <div>
@@ -91,7 +91,7 @@ function App() {
 
               <div className="space-x-2 mb-4">
                 <button className="bg-cyan-400 text-black px-2 py-1 rounded-full text-xs"> React</button>
-                <button className="bg-yellow-400 text-black px-2 py-1 rounded-full text-xs">JavaScript</button>
+                <button className="bg-yellow-300 text-black px-2 py-1 rounded-full text-xs">JavaScript</button>
               </div>
 
               <div>
@@ -111,7 +111,7 @@ function App() {
 
               <div className="space-x-2 mb-4">
                 <button className="bg-cyan-400 text-black px-2 py-1 rounded-full text-xs"> React</button>
-                <button className="bg-yellow-400 text-black px-2 py-1 rounded-full text-xs">JavaScript</button>
+                <button className="bg-yellow-300 text-black px-2 py-1 rounded-full text-xs">JavaScript</button>
               </div>
 
               <div>
@@ -131,7 +131,7 @@ function App() {
 
               <div className="space-x-2 mb-4">
                 <button className="bg-cyan-600 text-white px-2 py-1 rounded-full text-xs">CSS</button>
-                <button className="bg-yellow-400 text-black px-2 py-1 rounded-full text-xs">JavaScript</button>
+                <button className="bg-yellow-300 text-black px-2 py-1 rounded-full text-xs">JavaScript</button>
               </div>
 
               <div>
@@ -161,8 +161,8 @@ function App() {
 
               <div className="space-x-2 mb-4">
                 <button className="bg-cyan-400 text-black px-2 py-1 rounded-full text-xs">React</button>
-                <button className="bg-amber-600 text-black px-2 py-1 rounded-full text-xs">Firebase</button>
-                <button className="bg-yellow-400 text-black px-2 py-1 rounded-full text-xs">JavaScript</button>
+                <button className="bg-orange-400 text-black px-2 py-1 rounded-full text-xs">Firebase</button>
+                <button className="bg-yellow-300 text-black px-2 py-1 rounded-full text-xs">JavaScript</button>
               </div>
 
               <div>
@@ -182,7 +182,7 @@ function App() {
 
               <div className="space-x-2 mb-4">
                 <button className="bg-cyan-400 text-black px-2 py-1 rounded-full text-xs"> React</button>
-                <button className="bg-yellow-400 text-black px-2 py-1 rounded-full text-xs">JavaScript</button>
+                <button className="bg-yellow-300 text-black px-2 py-1 rounded-full text-xs">JavaScript</button>
               </div>
 
               <div>
@@ -207,8 +207,8 @@ function App() {
 {/* ------------------CONTACTO---------------------- */}
 
 
-      <footer className="bg-stone-800 text-white py-4 px-6 text-center">
-        <h2 className="text-2xl text-lime-500 font-bold">Contact Me</h2>
+      <footer className="bg-stone-800 text-white py-8 px-6 text-center">
+        <h2 className="text-2xl text-lime-500 font-bold mb-4">Contact Me</h2>
           <div>
             <div className='flex justify-center items-center'>
               <h5 className='flex items-center'>
