@@ -22,10 +22,6 @@ function App() {
         </button>
       </header>
 
-      <div id="stars"></div>
-      <div id="stars2"></div>
-      <div id="stars3"></div>
-
 {/* ------------------PRESENTACION---------------------- */}
 
       <main className="bg-stone-900 py-10">
