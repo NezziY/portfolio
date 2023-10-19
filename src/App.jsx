@@ -12,7 +12,7 @@ import { HiOutlineDocumentDownload } from "react-icons/hi";
 import { BsGit } from "react-icons/bs";
 
 import miCv from "./BerthaVSanchezP.pdf";
-import Projects from "./components/projects";
+import Projects from "./components/projects.jsx";
 
 function App() {
   const descargarCv = () => {
