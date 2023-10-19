@@ -40,7 +40,7 @@ function Projects() {
                 <img
                   src={p1}
                   alt="Vista previa de ejemplo"
-                  className="link-image rounde"
+                  className="link-image rounded-lg"
                 />
               </a>
             </div>
@@ -68,7 +68,7 @@ function Projects() {
                 <img
                   src={p2}
                   alt="Vista previa de ejemplo"
-                  className="link-image rounde"
+                  className="link-image rounded-lg"
                 />
               </a>
             </div>
@@ -97,7 +97,7 @@ function Projects() {
                 <img
                   src={p3}
                   alt="Vista previa de ejemplo"
-                  className="link-image rounde"
+                  className="link-image rounded-lg"
                 />
               </a>
             </div>
@@ -125,7 +125,7 @@ function Projects() {
                 <img
                   src={p4}
                   alt="Vista previa de ejemplo"
-                  className="link-image rounde"
+                  className="link-image rounded-lg"
                 />
               </a>
             </div>
@@ -166,7 +166,7 @@ function Projects() {
                 <img
                   src={p6}
                   alt="Vista previa de ejemplo"
-                  className="link-image rounde"
+                  className="link-image rounded-lg"
                 />
               </a>
             </div>
@@ -195,7 +195,7 @@ function Projects() {
                 <img
                   src={p5}
                   alt="Vista previa de ejemplo"
-                  className="link-image rounde"
+                  className="link-image rounded-lg"
                 />
               </a>
             </div>
