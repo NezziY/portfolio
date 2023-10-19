@@ -1,16 +1,15 @@
 /** @type {import('tailwindcss').Config} */
-export default {
+module.exports = {
   content: [
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-   
     extend: {
-      fontFamily: {
-        'montserrat': ['Montserrat', 'sans-serif'],
-      },
+      // Aquí puedes agregar configuraciones adicionales de temas si es necesario
     },
   },
-  plugins: [],
+  plugins: [
+    require('tailwindcss-animated')
+  ],
 }
