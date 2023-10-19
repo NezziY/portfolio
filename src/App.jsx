@@ -11,7 +11,7 @@ import { HiEnvelope } from "react-icons/hi2";
 import { HiOutlineDocumentDownload } from "react-icons/hi";
 import { BsGit } from "react-icons/bs";
 
-import miCv from "/public/BerthaVSanchezP.pdf";
+import miCv from "./BerthaVSanchezP.pdf";
 import Projects from "./components/projects";
 
 function App() {
@@ -122,7 +122,7 @@ function App() {
                 </div>
                 <div>
                   <blockquote className="italic py-4 px-6 border-l-4 border-blue-500">
-                    "Front-end es la diversión que ves en tu navegador."
+                    Front-end es la diversión que ves en tu navegador.
                   </blockquote>
                 </div>
               </div>
