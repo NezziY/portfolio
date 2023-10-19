@@ -202,7 +202,6 @@ function Projects() {
           </div>
         </div>
       </div>
-      <p>asdfasfafasf</p>
     </div>
   );
 }
