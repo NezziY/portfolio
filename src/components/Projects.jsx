@@ -9,7 +9,7 @@ function Projects() {
   return (
     <div>
       {/* ------------------PROYECTOS INDIVIDUALES---------------------- */}
-      <div className="border-b pb-12">
+      <div className="border-b pb-12 mx-3">
         <h2 className="text-4xl drop-shadow-[0_5px_5px_rgba(0,0,0,0.25)] md:text-6xl font-extrabold  text-center text-rose-600 m-10 py-8 animate-fade-down animate-once animate-duration-1000">
           Proyectos Individuales
         </h2>
@@ -40,7 +40,7 @@ function Projects() {
                 <img
                   src={p1}
                   alt="Vista previa de ejemplo"
-                  className="link-image rounded-lg"
+                  className="link-image rounde"
                 />
               </a>
             </div>
@@ -68,7 +68,7 @@ function Projects() {
                 <img
                   src={p2}
                   alt="Vista previa de ejemplo"
-                  className="link-image rounded-lg"
+                  className="link-image rounde"
                 />
               </a>
             </div>
@@ -97,7 +97,7 @@ function Projects() {
                 <img
                   src={p3}
                   alt="Vista previa de ejemplo"
-                  className="link-image rounded-lg"
+                  className="link-image rounde"
                 />
               </a>
             </div>
@@ -125,7 +125,7 @@ function Projects() {
                 <img
                   src={p4}
                   alt="Vista previa de ejemplo"
-                  className="link-image rounded-lg"
+                  className="link-image rounde"
                 />
               </a>
             </div>
@@ -166,7 +166,7 @@ function Projects() {
                 <img
                   src={p6}
                   alt="Vista previa de ejemplo"
-                  className="link-image rounded-lg"
+                  className="link-image rounde"
                 />
               </a>
             </div>
@@ -195,7 +195,7 @@ function Projects() {
                 <img
                   src={p5}
                   alt="Vista previa de ejemplo"
-                  className="link-image rounded-lg"
+                  className="link-image rounde"
                 />
               </a>
             </div>
