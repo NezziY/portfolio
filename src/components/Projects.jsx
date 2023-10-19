@@ -10,23 +10,23 @@ function Projects() {
     <div>
       {/* ------------------PROYECTOS INDIVIDUALES---------------------- */}
       <div className="border-b pb-12">
-        <h2 className="text-4xl drop-shadow-md md:text-6xl font-extrabold  text-center text-rose-600 m-10 py-8 animate-fade-down animate-once animate-duration-1000">
+        <h2 className="text-4xl drop-shadow-[0_5px_5px_rgba(0,0,0,0.25)] md:text-6xl font-extrabold  text-center text-rose-600 m-10 py-8 animate-fade-down animate-once animate-duration-1000">
           Proyectos Individuales
         </h2>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 gap-8">
-          <div className="bg-gray-200 border border-stone-600 rounded p-4">
+          <div className="bg-gray-200 border border-stone-300 drop-shadow-[0_5px_5px_rgba(0,0,0,0.25)] rounded-2xl p-8">
             <h3 className="text-lg font-bold mb-2">To do List</h3>
             <p className="mb-2">Lista de Tareas simple con CRUD y login.</p>
 
             <div className="space-x-2 mb-4">
-              <button className="bg-cyan-400 text-black px-2 py-1 rounded-full text-xs">
+              <button className="bg-cyan-400 text-black px-2 py-1 font-bold rounded-full text-xs">
                 React
               </button>
-              <button className="bg-orange-400 text-black px-2 py-1 rounded-full text-xs">
+              <button className="bg-orange-400 text-black px-2 py-1 font-bold rounded-full text-xs">
                 Firebase
               </button>
-              <button className="bg-yellow-300 text-black px-2 py-1 rounded-full text-xs">
+              <button className="bg-yellow-300 text-black px-2 py-1 font-bold rounded-full text-xs">
                 JavaScript
               </button>
             </div>
@@ -40,21 +40,21 @@ function Projects() {
                 <img
                   src={p1}
                   alt="Vista previa de ejemplo"
-                  className="link-image"
+                  className="link-image rounded-lg"
                 />
               </a>
             </div>
           </div>
 
-          <div className="bg-gray-200 border border-stone-600 rounded p-4">
+          <div className="bg-gray-200 border border-stone-300 drop-shadow-[0_5px_5px_rgba(0,0,0,0.25)] rounded-2xl p-8">
             <h3 className="text-lg font-bold mb-2">Humaya</h3>
             <p className="mb-2">Landing Page de Ventas</p>
 
             <div className="space-x-2 mb-4">
-              <button className="bg-cyan-400 text-black px-2 py-1 rounded-full text-xs">
+              <button className="bg-cyan-400 text-black px-2 py-1 font-bold rounded-full text-xs">
                 React
               </button>
-              <button className="bg-yellow-300 text-black px-2 py-1 rounded-full text-xs">
+              <button className="bg-yellow-300 text-black px-2 py-1 font-bold rounded-full text-xs">
                 JavaScript
               </button>
             </div>
@@ -68,22 +68,22 @@ function Projects() {
                 <img
                   src={p2}
                   alt="Vista previa de ejemplo"
-                  className="link-image"
+                  className="link-image rounded-lg"
                 />
               </a>
             </div>
           </div>
 
-          <div className="bg-gray-200 border border-stone-600 rounded p-4">
+          <div className="bg-gray-200 border border-stone-300 drop-shadow-[0_5px_5px_rgba(0,0,0,0.25)] rounded-2xl p-8">
             <h3 className="text-xl font-bold mb-2">Buscador</h3>
             <p className="mb-2">Buscador de películas con API.</p>
 
             <div className="space-x-2 mb-4">
-              <button className="bg-cyan-400 text-black px-2 py-1 rounded-full text-xs">
+              <button className="bg-cyan-400 text-black px-2 py-1 font-bold rounded-full text-xs">
                 {" "}
                 React
               </button>
-              <button className="bg-yellow-300 text-black px-2 py-1 rounded-full text-xs">
+              <button className="bg-yellow-300 text-black px-2 py-1 font-bold rounded-full text-xs">
                 JavaScript
               </button>
             </div>
@@ -97,21 +97,21 @@ function Projects() {
                 <img
                   src={p3}
                   alt="Vista previa de ejemplo"
-                  className="link-image"
+                  className="link-image rounded-lg"
                 />
               </a>
             </div>
           </div>
 
-          <div className="bg-gray-200 border border-stone-600 rounded p-4">
+          <div className="bg-gray-200 border border-stone-300 drop-shadow-[0_5px_5px_rgba(0,0,0,0.25)] rounded-2xl p-8">
             <h3 className="text-lg font-bold mb-2">Llama No Drama</h3>
             <p className="mb-2">Animación simple con CSS.</p>
 
             <div className="space-x-2 mb-4">
-              <button className="bg-cyan-600 text-white px-2 py-1 rounded-full text-xs">
+              <button className="bg-cyan-600 text-white px-2 py-1 font-bold rounded-full text-xs">
                 CSS
               </button>
-              <button className="bg-yellow-300 text-black px-2 py-1 rounded-full text-xs">
+              <button className="bg-yellow-300 text-black px-2 py-1 font-bold rounded-full text-xs">
                 JavaScript
               </button>
             </div>
@@ -125,7 +125,7 @@ function Projects() {
                 <img
                   src={p4}
                   alt="Vista previa de ejemplo"
-                  className="link-image"
+                  className="link-image rounded-lg"
                 />
               </a>
             </div>
@@ -136,23 +136,23 @@ function Projects() {
       {/* ------------------PROYECTOS GRUPALES---------------------- */}
 
       <div className="pb-12">
-        <h2 className="text-4xl drop-shadow-md md:text-6xl font-extrabold  text-center text-rose-600 my-10 py-8 animate-fade-down animate-once animate-duration-1000">
+        <h2 className="text-4xl drop-shadow-[0_5px_5px_rgba(0,0,0,0.25)] md:text-6xl font-extrabold  text-center text-rose-600 my-10 py-8 animate-fade-down animate-once animate-duration-1000">
           Proyectos Grupales
         </h2>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 gap-8">
-          <div className="bg-gray-200 border border-stone-600 rounded p-4">
+          <div className="bg-gray-200 border border-stone-300 drop-shadow-[0_5px_5px_rgba(0,0,0,0.25)] rounded-2xl p-8">
             <h3 className="text-lg font-bold mb-2">TecnoTienda</h3>
             <p className="mb-2">Tienda en Línea.</p>
 
             <div className="space-x-2 mb-4">
-              <button className="bg-cyan-400 text-black px-2 py-1 rounded-full text-xs">
+              <button className="bg-cyan-400 text-black px-2 py-1 font-bold rounded-full text-xs">
                 React
               </button>
-              <button className="bg-orange-400 text-black px-2 py-1 rounded-full text-xs">
+              <button className="bg-orange-400 text-black px-2 py-1 font-bold rounded-full text-xs">
                 Firebase
               </button>
-              <button className="bg-yellow-300 text-black px-2 py-1 rounded-full text-xs">
+              <button className="bg-yellow-300 text-black px-2 py-1 font-bold rounded-full text-xs">
                 JavaScript
               </button>
             </div>
@@ -166,22 +166,22 @@ function Projects() {
                 <img
                   src={p6}
                   alt="Vista previa de ejemplo"
-                  className="link-image"
+                  className="link-image rounded-lg"
                 />
               </a>
             </div>
           </div>
 
-          <div className="bg-gray-200 border border-stone-600 rounded p-4">
+          <div className="bg-gray-200 border border-stone-300 drop-shadow-[0_5px_5px_rgba(0,0,0,0.25)] rounded-2xl p-8">
             <h3 className="text-lg font-bold mb-2">PokeAPI</h3>
             <p className="mb-2">Listado de pokemones.</p>
 
             <div className="space-x-2 mb-4">
-              <button className="bg-cyan-400 text-black px-2 py-1 rounded-full text-xs">
+              <button className="bg-cyan-400 text-black px-2 py-1 font-bold rounded-full text-xs">
                 {" "}
                 React
               </button>
-              <button className="bg-yellow-300 text-black px-2 py-1 rounded-full text-xs">
+              <button className="bg-yellow-300 text-black px-2 py-1 font-bold rounded-full text-xs">
                 JavaScript
               </button>
             </div>
@@ -195,7 +195,7 @@ function Projects() {
                 <img
                   src={p5}
                   alt="Vista previa de ejemplo"
-                  className="link-image"
+                  className="link-image rounded-lg"
                 />
               </a>
             </div>
