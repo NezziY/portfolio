@@ -10,6 +10,7 @@ import tux from "./images/linux-svgrepo-com.svg";
 
 import Projects from "./components/Projects.jsx";
 import Header from "./components/Header";
+import ContactForm from "./components/ContactFrom";
 
 function App() {
   return (
@@ -94,6 +95,9 @@ function App() {
           </div>
         </div>
         <Projects />
+        <div>
+          <ContactForm/>
+        </div>
       </main>
     </div>
   );

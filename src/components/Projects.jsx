@@ -1,8 +1,4 @@
-import p1 from "../images/proyect1.png";
 import p2 from "../images/proyect2.png";
-// import p3 from "../images/proyect3.png";
-// import p4 from "../images/proyect4.png";
-import p5 from "../images/proyect5.png";
 import p6 from "../images/proyect6.png";
 import p7 from "../images/proyect7.webp";
 import p8 from "../images/proyect8.webp";
@@ -84,31 +80,6 @@ function Projects() {
       image: p6,
     },
     {
-      title: "PokeAPI",
-      description: "Listado de pokemones.",
-      technologies: [
-        { color: "cyan", text: "React" },
-        { color: "yellow", text: "JavaScript" },
-        { color: "violet", text: "Bootstrap" },
-      ],
-      link: "https://dancing-bubblegum-82c624.netlify.app/",
-      image: p5,
-    },
-  ];
-
-  const individualProjects = [
-    {
-      title: "To do List",
-      description: "Lista de Tareas simple con CRUD y login.",
-      technologies: [
-        { color: "cyan", text: "React" },
-        { color: "orange", text: "Firebase" },
-        { color: "yellow", text: "JavaScript" },
-      ],
-      link: "https://neon-lolly-da9b27.netlify.app/",
-      image: p1,
-    },
-    {
       title: "Humaya",
       description: "Landing Page de Ventas",
       technologies: [
@@ -123,7 +94,6 @@ function Projects() {
 
   return (
     <div>
-      {/* ------------------PROYECTOS GRUPALES---------------------- */}
       <div className="pb-12">
         <h2 className="text-3xl drop-shadow-[0_5px_5px_rgba(0,0,0,0.25)] md:text-6xl font-extrabold text-center text-rose-600 my-10 py-6 animate-fade-down animate-once animate-duration-1000">
           Proyectos
@@ -131,15 +101,6 @@ function Projects() {
 
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 gap-8">
           {groupProjects.map((project, index) => (
-            <Project key={index} {...project} />
-          ))}
-        </div>
-      </div>
-
-      {/* ------------------PROYECTOS INDIVIDUALES---------------------- */}
-      <div className="border-b pb-12 mx-3">
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 gap-8">
-          {individualProjects.map((project, index) => (
             <Project key={index} {...project} />
           ))}
         </div>

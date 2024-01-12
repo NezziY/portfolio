@@ -37,13 +37,6 @@ function Header() {
 
           <div className="flex flex-col justify-center">
             <a
-              href="mailto:bvanesanchezp@gmail.com"
-              className="flex font-semiboldtext-white text-sm py-2 px-4 rounded-xl items-center justify-center"
-            >
-              <HiEnvelope size={25} />
-              bvanesanchezp@gmail.com
-            </a>
-            <a
               href="#"
               onClick={descargarCv}
               className="flex font-semiboldtext-white py-2 px-4 rounded-xl text-sm items-center justify-center"
