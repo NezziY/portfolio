@@ -3,6 +3,15 @@ import p6 from "../images/proyect6.png";
 import p7 from "../images/proyect7.webp";
 import p8 from "../images/proyect8.webp";
 
+import { Navigation, Pagination, A11y } from "swiper/modules";
+
+import { Swiper, SwiperSlide } from "swiper/react";
+
+// Import Swiper styles
+import "swiper/css";
+import "swiper/css/navigation";
+import "swiper/css/pagination";
+
 // Reusable Button Component
 const Button = ({ text }) => (
   <button
@@ -14,7 +23,7 @@ const Button = ({ text }) => (
 
 // Reusable Project Component
 const Project = ({ title, description, technologies, link, image }) => (
-  <div className="bg-gray-200 border border-stone-300 drop-shadow-[0_5px_5px_rgba(0,0,0,0.25)] rounded-2xl p-8">
+  <div className="bg-gray-200 border border-stone-300 drop-shadow-[0_5px_5px_rgba(0,0,0,0.25)] rounded-2xl p-8 mb-12">
     <h3 className="text-lg font-bold mb-2">{title}</h3>
     <p className="mb-2">{description}</p>
 
@@ -69,7 +78,7 @@ function Projects() {
     },
     {
       title: "TecnoTienda",
-      description: "Proyecto grupal final en Codo a Codo.",
+      description: "Ecommerce proyecto grupal final en ReactJs en Codo a Codo.",
       technologies: [
         { color: "cyan", text: "React" },
         { color: "orange", text: "Firebase" },
@@ -81,7 +90,8 @@ function Projects() {
     },
     {
       title: "Humaya",
-      description: "Landing Page de Ventas",
+      description:
+        "Landing Page de Ventas, como proyecto individual en ReactJs en Codo a Codo",
       technologies: [
         { color: "cyan", text: "React" },
         { color: "yellow", text: "JavaScript" },
@@ -95,15 +105,29 @@ function Projects() {
   return (
     <div>
       <div className="pb-12">
-        <h2 className="text-3xl drop-shadow-[0_5px_5px_rgba(0,0,0,0.25)] md:text-6xl font-extrabold text-center text-rose-600 my-10 py-6 animate-fade-down animate-once animate-duration-1000">
+        <h2 className="text-3xl drop-shadow-[0_5px_5px_rgba(0,0,0,0.25)] md:text-6xl font-extrabold text-center text-rose-600 mt-4 mb-8 py-6 animate-fade-down animate-once animate-duration-1000">
           Proyectos
         </h2>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 gap-8">
+        <Swiper
+          modules={[Navigation, Pagination, A11y]}
+          spaceBetween={20}
+          slidesPerView={2}
+          navigation={{
+            nextEl: null,
+            prevEl: null,
+          }}
+          pagination={{ clickable: true }}
+          autoplay={{ delay: 1000, disableOnInteraction: false }}
+          onSwiper={(swiper) => console.log(swiper)}
+          onSlideChange={() => console.log("slide change")}
+        >
           {groupProjects.map((project, index) => (
-            <Project key={index} {...project} />
+            <SwiperSlide key={index}>
+              <Project {...project} />
+            </SwiperSlide>
           ))}
-        </div>
+        </Swiper>
       </div>
     </div>
   );

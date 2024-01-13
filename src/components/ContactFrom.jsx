@@ -35,7 +35,7 @@ const ContactForm = () => {
   };
 
   return (
-    <div className="grid grid-cols-2 gap-4 items-center m-5 py-8 border-t">
+    <div className="grid grid-cols-2 gap-4 items-center m-5 pt-4 pb-8 border-t">
       <Toaster />
       <div>
         <div className="p-4">
