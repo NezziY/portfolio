@@ -1,10 +1,9 @@
 import { TfiYoutube } from "react-icons/tfi";
 import { FaTwitterSquare, FaLinkedin } from "react-icons/fa";
-import { HiEnvelope } from "react-icons/hi2";
 import { HiOutlineDocumentDownload } from "react-icons/hi";
 import { BsGit } from "react-icons/bs";
 
-import miCv from "../BerthaSanchez.pdf";
+import miCv from "../BerthaSanchez.png";
 
 function Header() {
   const descargarCv = () => {
