@@ -11,6 +11,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
+import "swiper/css/autoplay";
 
 // Reusable Button Component
 const Button = ({ text }) => (
@@ -119,6 +120,12 @@ function Projects() {
           }}
           pagination={{ clickable: true }}
           autoplay={{ delay: 1000, disableOnInteraction: false }}
+          breakpoints={{
+            // Configura slidesPerView para diferentes tamaños de pantalla
+            300: {
+              slidesPerView: 1, // Muestra un slide por vista en resoluciones de 768 píxeles y menores
+            },
+          }}
           onSwiper={(swiper) => console.log(swiper)}
           onSlideChange={() => console.log("slide change")}
         >

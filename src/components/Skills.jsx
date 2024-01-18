@@ -29,11 +29,11 @@ function Skills() {
         <div>
           <img
             src={jsImage}
-            sizes={12}
+            width={48}
           />
           <img
             src={reactImage}
-            sizes={12}
+            width={46}
           />
         </div>
         <div>
