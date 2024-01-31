@@ -3,7 +3,7 @@ import { FaTwitterSquare, FaLinkedin } from "react-icons/fa";
 import { HiOutlineDocumentDownload } from "react-icons/hi";
 import { BsGit } from "react-icons/bs";
 
-import miCv from "../BerthaSanchez.png";
+import miCv from "../CVBerthaVSanchezP.pdf";
 
 function Header() {
   const descargarCv = () => {
