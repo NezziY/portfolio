@@ -46,7 +46,10 @@ function App() {
             </div>
           </div>
         </div>
+        <div>
         <Projects />
+        </div>
+        
         <div>
           <ContactForm />
         </div>
