@@ -13,8 +13,8 @@ function Projects() {
     dots: true,
     infinite: false,
     speed: 500,
-    slidesToShow: 4,
-    slidesToScroll: 4,
+    slidesToShow: 3,
+    slidesToScroll: 3,
     initialSlide: 0,
     responsive: [
       {
@@ -120,12 +120,12 @@ function Projects() {
       <Slider {...settings}>
         {groupProjects.map((project, index) => (
           <div key={project.id} className="slider-item">
-            <div className="m-4 border-2 rounded-lg">
+            <div className="m-4 rounded-lg">
               <a href={project.link} target="_blank" rel="noopener noreferrer">
                 <img
                   src={project.image}
                   alt={project.title}
-                  className="slider-image"
+                  className="slider-image rounded-xl shadow-md"
                 />
               </a>
               <div className="p-4">

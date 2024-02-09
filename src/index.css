@@ -10,7 +10,3 @@
     width: 100%; /* Esto asegura que todos los elementos del slider tengan el mismo ancho */
   }
   
-  .slider-image {
-    width: 100%; /* Esto asegura que todas las imágenes dentro del slider ocupen el mismo ancho */
-    height: auto; /* Esto permite que la altura se ajuste automáticamente para mantener la proporción de la imagen */
-  }

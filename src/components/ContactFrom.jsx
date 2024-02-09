@@ -40,9 +40,8 @@ const ContactForm = () => {
       <div>
         <div className="p-4">
           <div>
-            Si tienes consultas, comentarios o simplemente deseas ponerte en
-            contacto, ¡utiliza el formulario a continuación y te responderé lo
-            antes posible!
+            Si te gustó mi trabajo, no dudes en contratarme! Utiliza el formulario a continuación y te responderé lo
+            antes posible.
           </div>
           <div className="mt-4">Mail de Contacto:</div>
           <div className="font-semibold">bvanesanchezp@gmail.com</div>
