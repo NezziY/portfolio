@@ -11,14 +11,14 @@ function Header() {
   };
   return (
     <div>
-      <header className="bg-stone-900 text-white py-4 px-6">
+      <header className="bg-gray-900 text-white py-4 px-6">
         <div className="md:flex justify-between items-center">
           <div className="flex justify-center">
             <a
               href="https://www.youtube.com/channel/UCh7wBq4c5c16Dnb3oIN1lkA"
               className="mr-4"
             >
-              <TfiYoutube size={30} style={{ color: "#ff0000" }} />
+              <TfiYoutube size={30} style={{ color: "#ef4444" }} />
             </a>
             <a href="https://twitter.com/QtieAlpaca" className="mr-4">
               <FaTwitterSquare size={30} style={{ color: "#38bdf8" }} />

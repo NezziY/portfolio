@@ -24,7 +24,7 @@ function App() {
               />
             </div>
             <div className="md:w-3/5 lg:w-2/3 xl:w-1/2 pl-4">
-              <h2 className="text-4xl drop-shadow-md md:text-6xl font-extrabold mb-5 animate-fade animate-duration-[2000ms] gradient-text">
+              <h2 className="text-4xl drop-shadow-md md:text-6xl font-extrabold mb-5 animate-fade animate-duration-[2000ms] gradient">
                 Vane Sánchez
               </h2>
               <p className="mb-4">

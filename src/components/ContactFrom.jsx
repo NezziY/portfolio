@@ -96,8 +96,8 @@ const ContactForm = () => {
           <div className="flex justify-end">
             <button
               type="submit"
-              className="px-4 py-2 bg-lime-600 text-white rounded-xl hover:bg-lime-800 focus:outline-none focus:shadow-outline"
-            >
+              className="px-4 py-2 bg-gradient-to-r from-pink-500 to-blue-700 text-white font-semibold rounded-xl hover:from-pink-700 hover:to-blue-900 focus:outline-none focus:shadow-outline"
+>
               Enviar
             </button>
           </div>

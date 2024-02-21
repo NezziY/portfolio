@@ -14,7 +14,7 @@ function Skills() {
     <div>
       <div className="flex flex-col justify-center items-center">
         <h1 className="text-xl font-extrabold text-gray-700 my-4">Skills:</h1>
-        <div className="grid grid-cols-5 gap-2 items-center bg-neutral-200 p-6 rounded-2xl shadow-lg">
+        <div className="grid grid-cols-5 gap-2 items-center bg-white p-6 rounded-2xl shadow-lg">
           <img src={htmlImage} sizes={12} />
           <img src={cssImage} sizes={12} />
           <img src={jsImage} width={48} />

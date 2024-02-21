@@ -10,7 +10,7 @@
   width: 100%; /* Esto asegura que todos los elementos del slider tengan el mismo ancho */
 }
 
-.gradient-text {
+.gradient {
   background-image: linear-gradient(to right,#fc0e65, #0077ff );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
