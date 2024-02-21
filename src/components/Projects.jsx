@@ -56,6 +56,7 @@ function Projects() {
         { text: "CSS" },
       ],
       link: "https://guardianesdelbosque.vercel.app/",
+      git: "https://github.com/No-Country/s12-20-m-python",
       image: p7,
     },
     {
@@ -67,8 +68,10 @@ function Projects() {
         { text: "React" },
         { text: "JavaScript" },
         { text: "Tailwind" },
+        { text: "Redux" },
       ],
       link: "https://c14-02-m-node-react.vercel.app/",
+      git: "https://github.com/No-Country/c14-02-m-node-react",
       image: p8,
     },
     {
@@ -79,9 +82,10 @@ function Projects() {
         { text: "React" },
         { text: "Firebase" },
         { text: "JavaScript" },
+        { text: "Bootstrap" },
       ],
-
       link: "https://tecnocompu-23302.web.app/",
+      git: "https://github.com/VicenteCaldarone/23302-grupo1-tecnotienda",
       image: p6,
     },
     {
@@ -95,6 +99,7 @@ function Projects() {
         { text: "Bootstrap" },
       ],
       link: "https://peppy-croissant-5e5c96.netlify.app/",
+      git: "https://github.com/NezziY/humaya-tp",
       image: p2,
     },
     {
@@ -108,13 +113,14 @@ function Projects() {
         { text: "Tailwind" },
       ],
       link: "https://effortwork.netlify.app/",
+      git: "https://github.com/NezziY/kaban-react",
       image: p5,
     },
   ];
 
   return (
     <div className="slider-container p-8">
-      <h1 className="text-5xl text-center my-8 font-bold text-pink-700">
+      <h1 className="text-6xl text-center my-12 font-extrabold text-gray-700">
         Proyectos
       </h1>
       <Slider {...settings}>
@@ -131,15 +137,15 @@ function Projects() {
               <div className="p-4">
                 <h3 className="font-bold text-lg">{project.title}</h3>
                 <p>{project.description}</p>
-                <ul className="flex gap-2">
+                <ul className="flex flex-wrap gap-2">
                   {project.technologies.map((tech, i) => (
                     <li key={i} className="font-bold text-sm">
                       {tech.text}
                     </li>
                   ))}
                 </ul>
-                <a href={project.link} className="text-sm underline">
-                  Ver proyecto
+                <a href={project.git} className="text-sm underline">
+                  Ver Código
                 </a>
               </div>
             </div>

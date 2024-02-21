@@ -11,7 +11,7 @@ function Header() {
   };
   return (
     <div>
-      <header className="bg-stone-950 text-white py-4 px-6">
+      <header className="bg-stone-900 text-white py-4 px-6">
         <div className="md:flex justify-between items-center">
           <div className="flex justify-center">
             <a
