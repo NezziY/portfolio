@@ -76,17 +76,15 @@ function Projects() {
     },
     {
       id: 3,
-      title: "TecnoTienda",
-      description: "Ecommerce  en ReactJs, utilizando una APIs para los precios, y para la carga de procuctos.",
+      title: "Jarochita Toys",
+      description:
+        "Landing Page simple, con galería para un taller de juguetes cotumizados. Hecha con WP.",
       technologies: [
-        { text: "React" },
-        { text: "Firebase" },
-        { text: "JavaScript" },
-        { text: "Bootstrap" },
+        { text: "WordPress" }
       ],
-      link: "https://tecnocompu-23302.web.app/",
-      git: "https://github.com/VicenteCaldarone/23302-grupo1-tecnotienda",
-      image: p6,
+      link: "https://jarochitatoys.netlify.app/galeria",
+      git: "",
+      image: p5,
     },
     {
       id: 4,
@@ -104,18 +102,19 @@ function Projects() {
     },
     {
       id: 5,
-      title: "Planeador Personal",
-      description:
-        "Planeador con un local storage y app del clima integrada. Drag&Drop, sólo versión web.",
+      title: "TecnoTienda",
+      description: "Ecommerce  en ReactJs, utilizando una APIs para los precios, y para la carga de procuctos.",
       technologies: [
         { text: "React" },
+        { text: "Firebase" },
         { text: "JavaScript" },
-        { text: "Tailwind" },
+        { text: "Bootstrap" },
       ],
-      link: "https://effortwork.netlify.app/",
-      git: "https://github.com/NezziY/kaban-react",
-      image: p5,
+      link: "https://tecnocompu-23302.web.app/",
+      git: "https://github.com/VicenteCaldarone/23302-grupo1-tecnotienda",
+      image: p6,
     },
+    
   ];
 
   return (
