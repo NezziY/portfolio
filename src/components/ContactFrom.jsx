@@ -37,7 +37,7 @@ const ContactForm = () => {
 
   return (
     <div className="bmb-16">
-      <h1 className="text-2xl text-center font-extrabold mb-3 gradient">Contacto</h1>
+      <h1 className="text-4xl text-center font-extrabold mb-3 animate-bounce animate-duration-[2000ms] animate-ease-in gradient">Contacto</h1>
       <div className="sm:flex md:grid grid-cols-2 gap-4 items-center m-5 pb-8 ">
       <Toaster />
       
