@@ -11,7 +11,7 @@ import wp from "../images/wordpress-color-svgrepo-com.svg";
 
 function Skills() {
   return (
-    <div className="flex flex-col justify-center items-center">
+    <div className="scroll-container flex flex-col justify-center items-center mt-32">
       <h1 className="text-2xl font-extrabold gradient mb-3">Skills</h1>
       <div className="scroll flex">
         <div className="scroll-slide">

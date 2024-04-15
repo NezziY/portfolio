@@ -1,4 +1,5 @@
 import React, { useRef } from "react";
+import Navbar from "./Navbar";
 import emailjs from "@emailjs/browser";
 import { Toaster, toast } from "react-hot-toast";
 
@@ -35,18 +36,11 @@ const ContactForm = () => {
   };
 
   return (
-    <div className="sm:flex md:grid grid-cols-2 gap-4 items-center m-5 pt-4 pb-8 border-t">
+    <div className="bmb-16">
+      <h1 className="text-2xl text-center font-extrabold mb-3 gradient">Contacto</h1>
+      <div className="sm:flex md:grid grid-cols-2 gap-4 items-center m-5 pb-8 ">
       <Toaster />
-      <div>
-        <div className="p-4">
-          <div>
-            Si te gustó mi trabajo, no dudes en contratarme! Utiliza el formulario a continuación y te responderé lo
-            antes posible.
-          </div>
-          <div className="mt-4">Mail de Contacto:</div>
-          <div className="font-semibold">bvanesanchezp@gmail.com</div>
-        </div>
-      </div>
+      
       <div className="mt-8 p-6 bg-white rounded-xl shadow-md md:col-span-1">
         <form ref={form} onSubmit={sendEmail}>
           <div className="mb-4">
@@ -103,7 +97,15 @@ const ContactForm = () => {
           </div>
         </form>
       </div>
+      <div>
+        <div className="p-4 text-center">
+          <Navbar />
+          <div className="font-semibold pt-6">bvanesanchezp@gmail.com</div>
+        </div>
+      </div>
     </div>
+    </div>
+    
   );
 };
 

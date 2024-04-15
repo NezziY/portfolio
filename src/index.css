@@ -2,12 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
-.slider-container {
-  width: 100%; 
-}
-
-.slider-item {
-  width: 100%;
+body {
+  background: #111827;
 }
 
 .gradient {
@@ -16,6 +12,64 @@
   -webkit-text-fill-color: transparent;
 }
 
+.hero-container {
+  height: 70vh;
+  display: grid;
+  place-items: center;
+  position: relative;
+  overflow-x: clip;
+  z-index: 1;
+}
+
+.hero-content {
+  position: relative;
+  animation: fade-out linear forwards;
+  animation-timeline: view();
+  animation-range: exit -100px;
+  z-index: 2;
+}
+.hero-bg {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.5;
+  z-index: 0;
+  object-fit: cover;
+  animation: header-image-animation linear forwards;
+  animation-timeline: view();
+  animation-range: exit;
+}
+
+@keyframes fade-out {
+  to {
+    opacity: 0;
+  }
+}
+
+@keyframes header-image-animation {
+  25% {
+    opacity: 1;
+  }
+  85%,
+  100% {
+    opacity: 0;
+    scale: 2.5;
+  }
+}
+
+.slider-container {
+  width: 100%;
+}
+
+.slider-item {
+  width: 100%;
+}
+
+.scroll-container {
+  position: relative;
+  z-index: 1;
+}
 .scroll {
   width: 75vw;
   overflow: hidden;
@@ -28,8 +82,11 @@
 }
 
 .scroll-slide img {
+  background: darkslategray;
+  border-radius: 50%;
   width: 100px;
   margin: 4em;
+  padding: 1em;
 }
 
 @keyframes slide {
