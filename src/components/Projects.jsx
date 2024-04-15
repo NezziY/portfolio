@@ -11,11 +11,13 @@ import "slick-carousel/slick/slick-theme.css";
 function Projects() {
   var settings = {
     dots: true,
-    infinite: false,
-    speed: 500,
+    infinite: true,
+    autoplay: true,
+    speed: 3000,
     slidesToShow: 3,
-    slidesToScroll: 3,
-    initialSlide: 0,
+    slidesToScroll: 1,
+    initialSlide: 0,autoplaySpeed: 4000,
+    cssEase: "linear",
     responsive: [
       {
         breakpoint: 1024,
@@ -119,7 +121,7 @@ function Projects() {
 
   return (
     <div className="slider-container p-8">
-      <h1 className="text-6xl text-center my-12 font-extrabold text-gray-700">
+      <h1 className="text-5xl text-center my-12 font-extrabold gradient pb-3">
         Proyectos
       </h1>
       <Slider {...settings}>

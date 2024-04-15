@@ -11,22 +11,35 @@ import wp from "../images/wordpress-color-svgrepo-com.svg";
 
 function Skills() {
   return (
-    <div>
-      <div className="flex flex-col justify-center items-center">
-        <h1 className="text-xl font-extrabold text-gray-700 my-4">Skills:</h1>
-        <div className="grid grid-cols-5 gap-2 items-center bg-white p-6 rounded-2xl shadow-lg">
-          <img src={htmlImage} sizes={12} />
-          <img src={cssImage} sizes={12} />
-          <img src={jsImage} width={48} />
-          <img src={reactImage} width={42} />
-          <img src={node} width={40} />
-          <img src={sql} width={46} />
-          <img src={firebaseImage} width={48} />
-          <img src={tailwindImage} width={48} />
-          <img src={bootsT} width={34} />
-          <img src={wp} width={40} />
+    <div className="flex flex-col justify-center items-center">
+      <h1 className="text-2xl font-extrabold gradient mb-3">Skills</h1>
+      <div className="scroll flex">
+        <div className="scroll-slide">
+          <div><img src={htmlImage} /></div>
+          <div><img src={cssImage} /></div>
+          <div><img src={jsImage} /></div>
+          <div><img src={reactImage} /></div>
+          <div><img src={node} /></div>
+          <div><img src={sql} /></div>
+          <div><img src={firebaseImage} /></div>
+          <div><img src={tailwindImage} /></div>
+          <div className="px-3"><img src={bootsT} /></div>
+          <div className="px-2"><img src={wp} /></div>
+        </div>
+        <div className="scroll-slide">
+          <div><img src={htmlImage} /></div>
+          <div><img src={cssImage} /></div>
+          <div><img src={jsImage} /></div>
+          <div><img src={reactImage} /></div>
+          <div><img src={node} /></div>
+          <div><img src={sql} /></div>
+          <div><img src={firebaseImage} /></div>
+          <div><img src={tailwindImage} /></div>
+          <div className="px-3"><img src={bootsT} /></div>
+          <div className="px-2"><img src={wp} /></div>
         </div>
       </div>
+      
     </div>
   );
 }

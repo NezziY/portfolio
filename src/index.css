@@ -3,15 +3,40 @@
 @tailwind utilities;
 
 .slider-container {
-  width: 100%; /* O el ancho deseado */
+  width: 100%; 
 }
 
 .slider-item {
-  width: 100%; /* Esto asegura que todos los elementos del slider tengan el mismo ancho */
+  width: 100%;
 }
 
 .gradient {
-  background-image: linear-gradient(to right,#fc0e65, #0077ff );
+  background-image: linear-gradient(to right, #fc0e65, #0077ff);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+.scroll {
+  width: 75vw;
+  overflow: hidden;
+}
+
+.scroll-slide {
+  display: flex;
+  white-space: nowrap;
+  animation: 60s slide infinite linear;
+}
+
+.scroll-slide img {
+  width: 100px;
+  margin: 4em;
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
 }

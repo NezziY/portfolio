@@ -11,9 +11,9 @@ function Header() {
   };
   return (
     <div>
-      <header className="bg-gray-900 text-white py-4 px-6">
+      <header className="text-white py-4 px-6">
         <div className="md:flex justify-between items-center">
-          <div className="flex justify-center">
+          <div className="flex justify-center my-4">
             <a
               href="https://www.youtube.com/channel/UCh7wBq4c5c16Dnb3oIN1lkA"
               className="mr-4"

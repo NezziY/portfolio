@@ -7,12 +7,12 @@ import Skills from "./components/Skills";
 
 function App() {
   return (
-    <div className="bg-gray-100">
+    <div className="bg-gray-900">
       <Header />
 
       {/* ------------------PRESENTACION---------------------- */}
 
-      <main className="p-10 max-w-[1000px] border text-gray-900 mx-auto">
+      <main className="p-10 max-w-[1000px] text-gray-100 mx-auto">
         <div className="container p-4">
           <div className="md:flex items-center justify-center gap-4">
             <div>
