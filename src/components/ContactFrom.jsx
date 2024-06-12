@@ -30,8 +30,8 @@ const ContactForm = () => {
 
   const notifySuccess = () => {
     toast.success("Mensaje enviado con éxito", {
-      duration: 4000, // Duración en milisegundos
-      position: "bottom-center", // Posición del toast en la pantalla
+      duration: 4000,
+      position: "bottom-center",
     });
   };
 
