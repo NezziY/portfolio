@@ -5,7 +5,7 @@ import Header from "./components/Header.jsx";
 
 function App() {
   return (
-    <div className="bg-gray-900 text-gray-100 max-w-[1233px] mx-auto">
+    <div className="bg-black text-gray-100 max-w-[1233px] mx-auto">
       <Header />
       <Skills />
       <Projects />

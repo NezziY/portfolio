@@ -1,7 +1,8 @@
 import React from "react";
+import MyLinks from "../components/MyLinks";
 import fotoport from "../images/fotoport.webp";
-import fotoback from "../images/ocean.webp";
-import miCv from "../CVBerthaVSanchezP.pdf";
+import fotoback from "../images/cascade.webp";
+import miCv from "../BerthaSanchezES.docx";
 import { HiOutlineDocumentDownload } from "react-icons/hi";
 
 export default function Header() {
@@ -9,7 +10,7 @@ export default function Header() {
     window.location.href = miCv;
   };
   return (
-    <div className="hero-container">
+    <div className="hero-container pt-12">
       <img src={fotoback} className="hero-bg" alt="" />
       <div className="hero-content p-4 md:flex items-center justify-center gap-4">
         <div>
@@ -31,21 +32,21 @@ export default function Header() {
           </p>
           <p>
             Mi experiencia creando MPVs en <b>NoCountry</b> me permitió aplicar
-            mis habilidades en HTML, CSS, JavaScript, React y Tailwind CSS;
-            contribuyendo al desarrollo en equipo de sitios web modernos y
-            eficientes.
+            mis habilidades en HTML, CSS, JavaScript, React y Tailwind CSS.
+            Tengo experiencia trabajando de manera Freelance con WordPress.
           </p>
-          <a
-            href="#"
-            onClick={descargarCv}
-            className="flex font-bold text-white mt-6 rounded-xl text-sm items-center"
-          >
-            <HiOutlineDocumentDownload size={35} />
-            Descargar CV
-          </a>
-
+          <div className="flex justify-between items-center">
+            <a
+              href="#"
+              onClick={descargarCv}
+              className="flex font-bold text-white mt-6 rounded-xl text-sm items-center"
+            >
+              <HiOutlineDocumentDownload size={35} />
+              Descargar CV
+            </a>
+            <MyLinks />
+          </div>
         </div>
-        
       </div>
     </div>
   );

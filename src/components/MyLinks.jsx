@@ -2,7 +2,7 @@ import { TfiYoutube } from "react-icons/tfi";
 import { FaTwitterSquare, FaLinkedin } from "react-icons/fa";
 import { BsGit } from "react-icons/bs";
 
-function Navbar() {
+function MyLinks() {
   return (
     <div>
       <div className="flex justify-center ">
@@ -10,23 +10,23 @@ function Navbar() {
           href="https://www.youtube.com/channel/UCh7wBq4c5c16Dnb3oIN1lkA"
           className="mr-4"
         >
-          <TfiYoutube size={30} style={{ color: "#ef4444" }} />
+          <TfiYoutube size={30} />
         </a>
         <a href="https://twitter.com/QtieAlpaca" className="mr-4">
-          <FaTwitterSquare size={30} style={{ color: "#38bdf8" }} />
+          <FaTwitterSquare size={30} />
         </a>
         <a href="https://github.com/NezziY" className="mr-4">
-          <BsGit size={30} style={{ color: "f97316" }} />
+          <BsGit size={30} />
         </a>
         <a
           href="https://www.linkedin.com/in/bertha-vanessa-s%C3%A1nchez-posadas-5b05a9208/"
           className="mr-4"
         >
-          <FaLinkedin size={30} style={{ color: "2563eb" }} />
+          <FaLinkedin size={30} />
         </a>
       </div>
     </div>
   );
 }
 
-export default Navbar;
+export default MyLinks;
