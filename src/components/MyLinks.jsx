@@ -10,19 +10,19 @@ function MyLinks() {
           href="https://www.youtube.com/channel/UCh7wBq4c5c16Dnb3oIN1lkA"
           className="mr-4"
         >
-          <TfiYoutube size={30} />
+          <TfiYoutube size={36} />
         </a>
         <a href="https://twitter.com/QtieAlpaca" className="mr-4">
-          <FaTwitterSquare size={30} />
+          <FaTwitterSquare size={36} />
         </a>
         <a href="https://github.com/NezziY" className="mr-4">
-          <BsGit size={30} />
+          <BsGit size={36} />
         </a>
         <a
           href="https://www.linkedin.com/in/bertha-vanessa-s%C3%A1nchez-posadas-5b05a9208/"
           className="mr-4"
         >
-          <FaLinkedin size={30} />
+          <FaLinkedin size={36} />
         </a>
       </div>
     </div>

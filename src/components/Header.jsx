@@ -35,7 +35,7 @@ export default function Header() {
             mis habilidades en HTML, CSS, JavaScript, React y Tailwind CSS.
             Tengo experiencia trabajando de manera Freelance con WordPress.
           </p>
-          <div className="flex justify-between items-center">
+          <div className="flex justify-between items-center mt-4">
             <a
               href="#"
               onClick={descargarCv}
