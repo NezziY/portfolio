@@ -77,6 +77,20 @@ function Projects() {
     },
     {
       id: 3,
+      title: "El Blog de QtieAlpaca",
+      description:
+        "Blog Personal de tecnología y video juegos",
+      technologies: [
+        { text: "PHP" },
+        { text: "Bootstrap" },
+        { text: "PHPMyAdmin" }, 
+      ],
+      link: "https://vanesanchez.x10.mx/index.php",
+      git: "",
+      image: p2,
+    },
+    {
+      id: 4,
       title: "Jarochita Toys",
       description:
         "Landing Page simple, con galería para un taller de juguetes cotumizados. Hecha con WP.",
@@ -86,20 +100,6 @@ function Projects() {
       link: "https://jarochitatoys.netlify.app/galeria",
       git: "",
       image: p5,
-    },
-    {
-      id: 4,
-      title: "Humaya",
-      description:
-        "Landing Page de Ventas, como proyecto individual en ReactJs y estilado con Bootstrap.",
-      technologies: [
-        { text: "React" },
-        { text: "JavaScript" },
-        { text: "Bootstrap" },
-      ],
-      link: "https://peppy-croissant-5e5c96.netlify.app/",
-      git: "https://github.com/NezziY/humaya-tp",
-      image: p2,
     },
     {
       id: 5,

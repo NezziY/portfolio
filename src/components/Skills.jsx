@@ -8,16 +8,18 @@ import reactImage from "../images/icons8-reaccionar.svg";
 import firebaseImage from "../images/icons8-firebase.svg";
 import bootsT from "../images/bootstrap-4-logo-svgrepo-com.svg";
 import wp from "../images/wordpress-color-svgrepo-com.svg";
+import php from "../images/php-1-logo-svgrepo-com.svg";
 
 function Skills() {
   return (
-    <div className="scroll-container flex flex-col justify-center items-center mt-32">
+    <div className="scroll-container flex flex-col justify-center items-center mt-8">
       <h1 className="text-2xl font-extrabold gradient mb-3">Skills</h1>
       <div className="scroll flex">
         <div className="scroll-slide">
           <div><img src={htmlImage} /></div>
           <div><img src={cssImage} /></div>
           <div><img src={jsImage} /></div>
+          <div><img src={php} /></div>
           <div><img src={reactImage} /></div>
           <div><img src={node} /></div>
           <div><img src={sql} /></div>
@@ -30,6 +32,7 @@ function Skills() {
           <div><img src={htmlImage} /></div>
           <div><img src={cssImage} /></div>
           <div><img src={jsImage} /></div>
+          <div><img src={php} /></div>
           <div><img src={reactImage} /></div>
           <div><img src={node} /></div>
           <div><img src={sql} /></div>
