@@ -139,7 +139,7 @@ function Projects() {
                 <p>{project.description}</p>
                 <ul className="flex flex-wrap gap-2">
                   {project.technologies.map((tech, i) => (
-                    <li key={i} className="font-bold text-sm">
+                    <li key={i} className="inline-flex items-center rounded-md bg-gray-50 px-2 py-1 text-xs font-medium text-gray-600 ring-1 ring-inset ring-gray-500/10">
                       {tech.text}
                     </li>
                   ))}
