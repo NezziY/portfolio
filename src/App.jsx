@@ -2,6 +2,7 @@ import Projects from "./components/Projects.jsx";
 import ContactForm from "./components/ContactFrom";
 import Skills from "./components/Skills";
 import Header from "./components/Header.jsx";
+import Footer from "./components/Footer.jsx";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Skills />
       <Projects />
       <ContactForm />
+      <Footer />
     </div>
   );
 }

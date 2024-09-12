@@ -41,7 +41,7 @@ const ContactForm = () => {
       <div className="sm:flex md:grid grid-cols-2 gap-4 items-center m-5 pb-8">
         <Toaster />
         
-        <div className="mt-8 p-6 bg-white rounded-xl shadow-md md:col-span-1">
+        <div className="mt-8 p-6 bg-zinc-300 rounded-xl shadow-md md:col-span-1">
           <form ref={form} onSubmit={sendEmail}>
             <div className="mb-4">
               <label
