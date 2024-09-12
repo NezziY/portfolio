@@ -97,7 +97,7 @@ function Projects() {
       technologies: [
         { text: "WordPress" }
       ],
-      link: "https://jarochitatoys.netlify.app/galeria",
+      link: "https://jarochitatoys.netlify.app/",
       git: "",
       image: p5,
     },
